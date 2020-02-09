@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Common", "Soccer.Common\Soccer.Common.csproj", "{EB0328FC-BEAB-4885-9A67-204B7B71D8CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soccer.Common", "Soccer.Common\Soccer.Common.csproj", "{EB0328FC-BEAB-4885-9A67-204B7B71D8CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Web", "Soccer.Web\Soccer.Web.csproj", "{8BF53F50-A895-4A84-AAE3-927FBDD67D44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soccer.Web", "Soccer.Web\Soccer.Web.csproj", "{8BF53F50-A895-4A84-AAE3-927FBDD67D44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Prism", "Soccer.Prism\Soccer.Prism\Soccer.Prism.csproj", "{8FBEFF36-FED0-46A7-9C76-501E325EBFA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soccer.Prism", "Soccer.Prism\Soccer.Prism\Soccer.Prism.csproj", "{8FBEFF36-FED0-46A7-9C76-501E325EBFA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Prism.Android", "Soccer.Prism\Soccer.Prism.Android\Soccer.Prism.Android.csproj", "{52EDD254-4BBB-4174-9B26-ABE9A3E6DB54}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Prism.iOS", "Soccer.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Cross.Android", "Soccer.Cross.Android\Soccer.Cross.Android.csproj", "{A56CC5B9-7F74-4081-A233-B0E50CA56B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.iOS", "Soccer.iOS\Soccer.iOS.csproj", "{E20A6A6A-6D12-4623-A916-68E44BB2EF49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Cross.iOS", "Soccer.iOS\Soccer.Cross.iOS.csproj", "{E20A6A6A-6D12-4623-A916-68E44BB2EF49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
