@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Prism.iOS", "Soccer.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Cross.Android", "Soccer.Cross.Android\Soccer.Cross.Android.csproj", "{A56CC5B9-7F74-4081-A233-B0E50CA56B1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.iOS", "Soccer.iOS\Soccer.iOS.csproj", "{E20A6A6A-6D12-4623-A916-68E44BB2EF49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -195,6 +197,30 @@ Global
 		{A56CC5B9-7F74-4081-A233-B0E50CA56B1B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{A56CC5B9-7F74-4081-A233-B0E50CA56B1B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{A56CC5B9-7F74-4081-A233-B0E50CA56B1B}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Ad-Hoc|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Ad-Hoc|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Ad-Hoc|iPhone.ActiveCfg = Debug|iPhone
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Ad-Hoc|iPhone.Build.0 = Debug|iPhone
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.AppStore|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.AppStore|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.AppStore|iPhone.ActiveCfg = Debug|iPhone
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.AppStore|iPhone.Build.0 = Debug|iPhone
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.AppStore|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.AppStore|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Release|iPhone.Build.0 = Release|iPhone
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E20A6A6A-6D12-4623-A916-68E44BB2EF49}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
