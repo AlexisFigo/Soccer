@@ -13,8 +13,15 @@ namespace Soccer.Web.Data
         {
 
         }
+        public DbSet<GroupDetailEntity> GroupDetails { get; set; }
+
+        public DbSet<GroupEntity> Groups { get; set; }
+
+        public DbSet<MatchEntity> Matches { get; set; }
 
         //I must always add the tables I will work with
         public DbSet<TeamEntity> Teams { get; set; }
+
+        public DbSet<TournamentEntity> Tournaments { get; set; }
     }
 }
