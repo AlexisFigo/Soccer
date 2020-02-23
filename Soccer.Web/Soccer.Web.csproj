@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -16,6 +16,10 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\Tournaments\" />
     <Folder Include="wwwroot\images\Teams\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Soccer.Common\Soccer.Common.csproj" />
   </ItemGroup>
 
 </Project>
