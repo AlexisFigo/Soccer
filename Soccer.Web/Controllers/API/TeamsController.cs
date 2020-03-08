@@ -25,7 +25,7 @@ namespace Soccer.Web.Controllers.API
         [HttpGet]
         public IEnumerable<TeamEntity> GetTeams()
         {
-            return _context.Teams;
+            return _context.Teams.OrderBy(t => t.Name);
         }
 
         // GET: api/Teams/5
