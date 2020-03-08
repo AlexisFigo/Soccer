@@ -11,22 +11,25 @@ namespace Soccer.Prism.ViewModels
 {
     public class TournamentsPageViewModel : ViewModelBase
     {
+        private readonly INavigationService _navigationService;
         private readonly IApiService _apiService;
-        private List<TournamentResponse> _tournaments;
+        private List<TournamentItemViewModel> _tournaments;
         public TournamentsPageViewModel(INavigationService navigationService, IApiService apiService)
-            :base(navigationService)
+            : base(navigationService)
         {
             Title = "Tournament";
+            _navigationService = navigationService;
             _apiService = apiService;
 
             LoadTournamentAsync();
         }
 
-        public List<TournamentResponse> Tournaments 
-        { 
+        public List<TournamentItemViewModel> Tournaments
+        {
             get => _tournaments;
             set => SetProperty(ref _tournaments, value);
         }
+
 
         private async void LoadTournamentAsync()
         {
@@ -45,9 +48,20 @@ namespace Soccer.Prism.ViewModels
                         "Accept");
                     return;
                 }
+                List<TournamentResponse> list = (List<TournamentResponse>)response.Result;
+                Tournaments = list.Select(t => new TournamentItemViewModel(_navigationService)
+                {
+                    EndDate = t.EndDate,
+                    Groups = t.Groups,
+                    Id = t.Id,
+                    IsActive = t.IsActive,
+                    LogoPath = t.LogoPath,
+                    Name = t.Name,
+                    StartDate = t.StartDate
+                }).ToList();
 
-                Tournaments = (List<TournamentResponse>)response.Result;
 
             }
         }
+    }
 }
